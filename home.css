@@ -1,0 +1,43 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+}
+
+#menu {
+    margin-left: auto;
+    display: flex;
+}
+
+#menu li {
+    margin: 0 10px;
+}
+
+
+#section1 {
+    display: flex;
+    justify-items: center;
+}
+
+#section1 img,
+#section1 div {
+    width: 50%;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%;
+    height: 200px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
